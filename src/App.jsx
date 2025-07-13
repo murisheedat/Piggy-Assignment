@@ -13,7 +13,7 @@ import Target from "./pages/Target";
 import FlexDollar from "./pages/FlexDollar";
 import HouseMoney from "./pages/HouseMoney";
 import FlexNaira from "./pages/FlexNaira";
-import Shop from "./pages/Shop";
+// import Shop from "./pages/Shop";
 
 const App = () => {
   return (
@@ -32,7 +32,7 @@ const App = () => {
           <Route path="/flex-dollar" element={<FlexDollar />} />
           <Route path="/housemoney" element={<HouseMoney />} />
           <Route path="/flexnaira" element={<FlexNaira />} />
-          <Route path="/shop" element={<Shop />} />
+          {/* <Route path="/Shop" element={<Shop />} /> */}
         </Routes>
         <Footer />
       </BrowserRouter>
