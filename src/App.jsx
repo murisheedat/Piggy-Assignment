@@ -13,7 +13,7 @@ import Target from "./pages/Target";
 import FlexDollar from "./pages/FlexDollar";
 import HouseMoney from "./pages/HouseMoney";
 import FlexNaira from "./pages/FlexNaira";
-import Shop from "./pages/shop";
+import Shop from "./pages/Shop";
 
 const App = () => {
   return (
