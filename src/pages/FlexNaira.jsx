@@ -1,5 +1,5 @@
 import React from "react";
-import Flex from "../assets/flexImage.avif";
+import Flex from "../assets/FlexImage.avif";
 import Button from "../components/reusable/Button";
 import Apple from "../assets/appleLogo.svg";
 import Google from "../assets/google.svg";
