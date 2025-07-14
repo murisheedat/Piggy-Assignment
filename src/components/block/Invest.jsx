@@ -1,5 +1,5 @@
 import React from "react";
-import Investment from "../../assets/investImage.avif";
+import Investment from "../../assets/InvestImage.avif";
 
 const Invest = () => {
   return (
