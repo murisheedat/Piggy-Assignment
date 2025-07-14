@@ -2,7 +2,7 @@ import React from "react";
 import Auto from "../../assets/autoimage.png";
 import FixedSavings from "../../assets/FixedSavings.png";
 import Goal from "../../assets/Goal.avif";
-import FlexNaira from "../../assets/FlexNaira.avif";
+import FlexNaira from "../../assets/FlexImage.avif";
 import Dollar from "../../assets/Dollar.avif";
 import House from "../../assets/House.png";
 import Arrow from "../../assets/arrowse.svg";

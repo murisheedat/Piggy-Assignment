@@ -4,7 +4,7 @@ import { MdOutlineKeyboardArrowRight } from "react-icons/md";
 import Button from "../reusable/Button";
 import Google from "../../assets/google.svg";
 import Apple from "../../assets/appleLogo.svg";
-import heroImage from "../../assets/hero.jpg";
+import heroImage from "../../assets/heroImage.jpg";
 
 const Hero = () => {
   return (
