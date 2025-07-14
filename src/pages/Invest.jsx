@@ -3,7 +3,7 @@ import Button from "../components/reusable/Button";
 import Apple from "../assets/appleLogo.svg";
 import Google from "../assets/google.svg";
 import Investor from "../assets/investimage.png";
-import Buy from "../assets/investorimage.png";
+import Buy from "../assets/buyImage.png";
 import Explore from "../assets/explore.png";
 import Avatar from "../assets/avatar.png";
 import Simple from "../assets/simple.png";
