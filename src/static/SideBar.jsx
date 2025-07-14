@@ -289,7 +289,9 @@ export default function MobileNav() {
           />
           <Button
             title="create free account"
-            className="  w-full flex justify-center bg-[#122231] text-white"
+            bgColor="#122231"
+            textColor="#fff"
+            className="  w-full flex justify-center border"
           />
         </div>
       </div>

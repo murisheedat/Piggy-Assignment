@@ -2,7 +2,7 @@ import React from "react";
 import Button from "../components/reusable/Button";
 import Apple from "../assets/appleLogo.svg";
 import Google from "../assets/google.svg";
-import Investor from "../assets/invest.png";
+import Investor from "../assets/investimage.png";
 import Buy from "../assets/investor.png";
 import Explore from "../assets/explore.png";
 import Avatar from "../assets/avatar.png";
