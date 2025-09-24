@@ -12,7 +12,7 @@ import { FaApple } from "react-icons/fa";
 
 const Piggybank = () => {
   return (
-    <div>
+    <div className=" max-sm:items-center max-md:items-center max-lg:items-center max-xl:items-center ">
       <div className="flex justify-between items-center bg-[#0D60D8] px-[50px] pt-[160px]  max-md:flex-col max-md:gap-y-[50px]">
         <section className="max-w-[34em] max-md:w-[100%]">
           <h1 className="text-white font-bold text-[50px] py-2 max-md:text-center">
@@ -146,10 +146,10 @@ const Piggybank = () => {
           <img className="max-md:w-[100%]" src={Piggyhero} alt="" />
         </section>
       </div>
-      <div className="flex justify-between mt-24 mx-36 mb-20">
+      <div className="flex  justify-between mt-24 mx-36 mb-20 max-sm:flex-col max-sm:items-center">
         <img className="h-120" src={Fall} alt="" />
-        <section className="flex flex-col items-center py-52">
-          <h1 className="font-bold text-3xl w-dvh">
+        <section className="flex flex-col items-center py-52  ">
+          <h1 className="font-bold text-3xl w-dvh max-sm:text[16px] ">
             Join 5+ million people who save and invest with us
           </h1>
           <main className="flex gap-3 my-3 ml-20">

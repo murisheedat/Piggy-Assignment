@@ -19,7 +19,7 @@ const Blog = () => {
     },
   ];
   return (
-    <div className="w-[100%] flex justify-between items-center gap-x-[2px] ">
+    <div className="w-[100%] flex justify-between items-center gap-x-[2px] max-tablet:flex-col ">
       {recentPosts.map((post, index) => (
         <div key={index} className="flex flex-col gap-y-[20px] w-[30%]">
           <img src={post.image} alt="" className="my-[30px]" />

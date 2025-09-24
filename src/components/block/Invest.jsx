@@ -27,7 +27,7 @@ const Invest = () => {
           </button>
           <section>
             <img
-              className="h-96 absolute bottom-0 left-100 ' ] "
+              className="h-93 absolute bottom-1 left-97 rounded-b-md  "
               src={Investment}
             />
           </section>

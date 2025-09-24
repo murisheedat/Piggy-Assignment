@@ -12,7 +12,7 @@ export default function MobileNav() {
 
   return (
     <div className="">
-      <div className="w-[100%] flex justify-between items-center p-[20px] fixed bg-white   min-md:hidden ">
+      <div className="w-[100%] flex justify-between items-center p-[20px] fixed bg-white  min-md:hidden ">
         <div>
           <img
             className="bg-transparent"
