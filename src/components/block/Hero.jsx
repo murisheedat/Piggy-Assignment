@@ -41,7 +41,7 @@ const Hero = () => {
         </section>
         <section className=" max-w-[600px]  flex justify-center">
           <img
-            className=" w-[550px] max-w-max  mt-20 mx-auto animate-bounce "
+            className=" w-[550px] max-w-max  mt-20 mx-auto animate-bounce max-sm:w-[350px] "
             style={{ animationDuration: "30s" }}
             src={heroImage}
             alt=""

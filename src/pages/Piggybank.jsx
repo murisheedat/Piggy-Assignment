@@ -147,12 +147,12 @@ const Piggybank = () => {
         </section>
       </div>
       <div className="flex  justify-between mt-24 mx-36 mb-20 max-sm:flex-col max-sm:items-center">
-        <img className="h-120" src={Fall} alt="" />
+        <img className="h-120 max-sm:h-[300px]" src={Fall}  alt="" />
         <section className="flex flex-col items-center py-52  ">
-          <h1 className="font-bold text-3xl w-dvh max-sm:text[16px] ">
+          <h1 className="font-bold text-3xl w-dvh max-sm:text-2xl max-sm:w-[400px] max-sm:text-center max-sm:mt-0 ">
             Join 5+ million people who save and invest with us
           </h1>
-          <main className="flex gap-3 my-3 ml-20">
+          <main className="flex gap-3 my-3 ml-20 max-sm:ml-0 max-sm:gap-5 max-sm:mt-5 max-sm:mb-0">
             <Button
               title="Get on iPhone"
               borderColor="grey"

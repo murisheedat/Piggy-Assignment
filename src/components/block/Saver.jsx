@@ -8,13 +8,13 @@ const Saver = () => {
   return (
     <div>
       <section className="flex flex-col items-center my-20">
-        <h1 className="font-bold text-5xl">Meet Our Saver of the Month</h1>
-        <p className="text-2xl w-3xl text-center">
+        <h1 className="font-bold text-5xl max-sm:text-xl max-sm:w-[300px] ">Meet Our Saver of the Month</h1>
+        <p className="text-2xl w-3xl text-center  max-sm:w-[350px] max-sm:text-[16px]">
           Every month, we shine a spotlight on one saver, asking them about
           their savings culture and how Piggyvest has helped them.
         </p>
         <iframe
-          className="w-[700px] h-[500px] my-20 rounded-2xl mb-32 "
+          className="w-[700px] h-[500px] my-20 rounded-2xl max-sm:w-[350px] max-sm:h-[250px] max-sm:mb-10"
           src="https://www.youtube.com/embed/2EnGMGxKuII?autoplay=1&amp;mute=1"
         ></iframe>
       </section>

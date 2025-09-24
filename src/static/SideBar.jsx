@@ -15,7 +15,7 @@ export default function MobileNav() {
       <div className="w-[100%] flex justify-between items-center p-[20px] fixed bg-white  min-md:hidden ">
         <div>
           <img
-            className="bg-transparent"
+            className="bg-transparent h-[20px]"
             src="https://storage.googleapis.com/piggyvestwebsite/piggywebsite2020/logo_08e6965627/logo_08e6965627.svg"
             alt=""
           />
@@ -29,7 +29,7 @@ export default function MobileNav() {
           {nav ? (
             <FaTimes className="w-[50px] h-[50px]" />
           ) : (
-            <IoMenu className="w-[50px] h-[50px]" />
+            <IoMenu className="w-[50px] h-[50px] " />
           )}
         </div>
       </div>
@@ -282,7 +282,7 @@ export default function MobileNav() {
             </span>
           </Link>
         </div>
-        <div className="w-[100%]   space-y-[20px] ">
+        <div className="w-[100%]   space-y-[20px] items-center ">
           <Button
             title="Sign In"
             className="  w-full flex justify-center border"

@@ -95,7 +95,7 @@ const Diverse = () => {
 
             <img
               src={data.img}
-              className="absolute bottom-0 right-8 h-[180px] max-sm:h-[220px] max-lg:h-[250px] hidden group-hover:block max-sm:group-hover:block"
+              className="absolute bottom-0 right-8 h-[180px] max-sm:h-[220px] max-lg:h-[250px] hidden group-hover:block max-sm:group-hover:block max-sm:right-0 "
               alt={data.title}
             />
 
@@ -103,7 +103,7 @@ const Diverse = () => {
               {data.desc}
             </p>
 
-            <button className="group-hover:text-white mt-[200px] flex gap-3 items-center">
+            <button className="group-hover:text-white mt-[200px] flex gap-3 items-center max-sm: ">
               <img src={Arrow} alt="" />
               {data.btnTitle}
             </button>

@@ -33,3 +33,8 @@ body {
 .whine-image {
   animation: wiggle 20s infinite;
 }
+
+html, body {
+  overflow-x: hidden;
+}
+

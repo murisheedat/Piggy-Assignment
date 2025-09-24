@@ -9,9 +9,8 @@ import { useState } from "react";
 export default function Header() {
   const [save, setSave] = useState(false);
   const [resource, setResource] = useState(false);
-
   return (
-    <div className=" shadow shadow-gray-500 w-[100%] fixed top-0 bg-white  z-50">
+    <div className="  w-[100%] fixed top-0 bg-white  z-50">
       <div className=" bg-white w-[100%] flex justify-between items-center max-w-[1200px] mx-auto py-[20px]  max-md:hidden  ">
         <div className="w-[70%]  flex justify-between items-center">
           <div className="w-[20%]">
@@ -311,6 +310,7 @@ export default function Header() {
             textColor="white"
           />
         </div>
+        
       </div>
 
       <SideBar />
