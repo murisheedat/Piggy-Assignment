@@ -12,7 +12,7 @@ import { TbBrandYoutubeFilled } from "react-icons/tb";
 
 const Footer = () => {
   return (
-    <footer className="max-w-[1280px] mx-auto px-6 md:px-2 py-10">
+    <footer className="max-w-[1280px] mx-auto px-6 md:px-2 py-10 mt-0 items-center">
       {/* Featured in */}
       <section className="text-center mb-10">
         <h1 className="text-2xl md:text-4xl font-semibold">As featured in</h1>

@@ -18,13 +18,13 @@ const Saver = () => {
           src="https://www.youtube.com/embed/2EnGMGxKuII?autoplay=1&amp;mute=1"
         ></iframe>
       </section>
-      <div className="flex justify-between mx-36 mb-20">
+      <div className="flex justify-between mx-36 mb-20 max-sm:flex-col max-sm:items-center ">
         <img className="h-120" src={Fallback} alt="" />
         <section className="flex flex-col items-center py-52">
-          <h1 className="font-bold text-3xl w-dvh">
+          <h1 className="font-bold text-3xl w-dvh max-sm:text-2xl max-sm:w-[400px] max-sm:text-center max-sm:mt-0">
             Join 5+ million people who save and invest with us
           </h1>
-          <main className="flex gap-3 my-3 ml-20">
+          <main className="flex gap-3 my-3 ml-20 max-sm:ml-0 max-sm:gap-5 max-sm:mt-5 max-sm:mb-0">
             <Button
               title="Get on iPhone"
               borderColor="grey"
